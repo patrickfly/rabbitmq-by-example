@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "common", "common\common.csproj", "{966B2A34-7502-4892-8BD9-C985C8441080}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Standard Queue", "1. Standard Queue", "{74725240-2A1C-4440-A852-0A97F9EA386D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StandardQueue", "StandardQueue\StandardQueue.csproj", "{FEC65F60-09C1-4D0C-9634-032CBAFA141B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{966B2A34-7502-4892-8BD9-C985C8441080}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{966B2A34-7502-4892-8BD9-C985C8441080}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{966B2A34-7502-4892-8BD9-C985C8441080}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{966B2A34-7502-4892-8BD9-C985C8441080}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEC65F60-09C1-4D0C-9634-032CBAFA141B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEC65F60-09C1-4D0C-9634-032CBAFA141B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEC65F60-09C1-4D0C-9634-032CBAFA141B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEC65F60-09C1-4D0C-9634-032CBAFA141B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FEC65F60-09C1-4D0C-9634-032CBAFA141B} = {74725240-2A1C-4440-A852-0A97F9EA386D}
+	EndGlobalSection
+EndGlobal
