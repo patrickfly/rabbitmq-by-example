@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{FEC65F60-09C1-4D0C-9634-032CBAFA141B}</ProjectGuid>
+    <ProjectGuid>{7F6F87CF-87D6-47A9-A6FA-1C1ABCF11CAE}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>StandardQueue</RootNamespace>
-    <AssemblyName>StandardQueue</AssemblyName>
+    <RootNamespace>WorkerQueueProducer</RootNamespace>
+    <AssemblyName>WorkerQueueProducer</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
